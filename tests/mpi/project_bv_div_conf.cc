@@ -18,7 +18,7 @@
 // distributed triangulation
 
 #include <deal.II/base/function.h>
-#include <deal.II/base/utilities.h> 
+#include <deal.II/base/utilities.h>
 #include <deal.II/base/conditional_ostream.h>
 
 #include <deal.II/lac/affine_constraints.h>
@@ -47,7 +47,6 @@ namespace ResFlow
 {
 
   using namespace dealii;
-
 
   template<int dim>
     class FluxBoundaryValues : public Function<dim>
